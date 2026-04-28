@@ -1,0 +1,16 @@
+{
+  "name": "farit.github.io",
+  "version": "1.0.0",
+  "description": "Repositorio para Portafolio",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss/main.scss src/css/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "1.99.0"
+  }
+}
