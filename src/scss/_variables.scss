@@ -1,0 +1,40 @@
+// ── COLORS ──────────────────────────────
+$color-dark:          #262423;  // Shadow Grey  → fondo principal
+$color-surface:       #402B47;  // Midnight Violet → fondo de cards
+$color-brand:         #8350C4;  // Deep Lilac   → color principal
+$color-muted:         #7392B5;  // Dusty Denim  → textos secundarios
+$color-light:         #C9E0EB;  // Pale Sky     → textos y detalles
+
+// ── TYPOGRAPHY ──────────────────────────
+$font-primary:        'Inter', sans-serif;
+$font-mono:           'Fira Code', monospace;
+
+$text-sm:             0.875rem;
+$text-base:           1rem;
+$text-lg:             1.25rem;
+$text-xl:             2rem;
+$text-hero:           4rem;
+
+// ── SPACING ─────────────────────────────
+$space-xs:            0.25rem;
+$space-sm:            0.5rem;
+$space-md:            1rem;
+$space-lg:            2rem;
+$space-xl:            4rem;
+
+
+// ── BORDERS ─────────────────────────────
+$radius-sm:           4px;
+$radius-md:           8px;
+$radius-lg:           16px;
+$radius-full:         9999px;
+
+// ── SHADOWS ─────────────────────────────
+$shadow-sm:           0 1px 3px rgba(131, 80, 196, 0.15);
+$shadow-md:           0 4px 20px rgba(189, 140, 253, 0.25);
+     
+
+// ── TRANSITIONS ─────────────────────────
+$duration-fast:       150ms;
+$duration-normal:     300ms;
+$ease-default:        cubic-bezier(0.68,-0.55,0.27,1.55);

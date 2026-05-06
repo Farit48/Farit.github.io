@@ -1,5 +1,150 @@
-h1 {
-  color: #8fdc6b;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #262423;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-family: "Inter", sans-serif;
+}
+body hr {
+  border: none;
+  border-top: 1px solid #7392B5;
+  margin: 1rem auto;
+  animation: hr 1s ease-in-out 0.2s forwards;
+}
+body header {
+  width: 100%;
+  height: 357%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+body header a {
+  text-decoration: none;
+}
+body header nav {
+  align-items: center;
+  width: 80%;
+  height: 13%;
+  display: flex;
+  justify-content: space-around;
+}
+body header nav a {
+  color: #7392B5;
+  border: none;
+}
+body header nav a:hover {
+  text-decoration: underline;
+  color: #C9E0EB;
+  font-size: 15px;
+  transition: all ease-in 0.2s;
+}
+body header section {
+  height: 68%;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 150px;
+  font-family: "Fira Code", monospace;
+}
+body header section h1 {
+  font-size: 50px;
+  color: #C9E0EB;
+  font-family: "Inter", sans-serif;
+}
+body header section h1 span {
+  color: #8350C4;
+}
+body header section h1 {
+  animation: h1 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.3s forwards;
+}
+body header section .div2 {
+  color: #7392B5;
+  border-left: 8px solid #8350C4;
+  opacity: 0;
+  animation: div2 1.5s ease-in 0.3s forwards;
+  height: 30px;
+  position: relative;
+}
+@keyframes h1 {
+  0% {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes div2 {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body header .btn {
+  height: 20px;
+  color: #C9E0EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  transition: all 0.3s;
+}
+body header .btn:hover {
+  text-decoration: underline;
+  font-size: 18px;
+  transition: all 0.2s;
+}
+body header {
+  animation: header 2s ease-in-out 0.1s forwards;
+}
+body main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@keyframes header {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes hr {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
